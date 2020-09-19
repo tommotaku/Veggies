@@ -7,6 +7,14 @@
               background: url(veg.webp) no-repeat center ; 
               background-size: cover;
 }
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
 
 .banner-content{
     position: relative; 
@@ -15,16 +23,18 @@
     margin: 12%; 
     background-color: rgba(0, 0, 0, 0.7); 
     max-width: 1000px;
-    overflow: hidden; 
+    overflow: hidden;
 }
-
+h1{
+    font-weight: 1000;
+    font-family: 'Dancing Script', cursive;
+}
 .thumbnail img{
     max-height: 150px; 
 }
 main {
     min-height: 100vh;
 }
-
 footer{
     padding: 10px 0; 
     background-color: #101010; 
