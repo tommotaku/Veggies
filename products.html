@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Products</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">VEGGIES</a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
+                        <li><a href="settings.html"><span class="glyphicon glyphicon-user">Settings</span></a></li>
+                        <li><a href="logout.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="jumbotron jumbotron_style">
+                <h1>Welcome to our nutritious store!</h1>
+                <p> We bring all the healthy vegetables right at your door. </p>
+            </div>
+            <div class="padding-20"></div>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="img/onion.webp" alt="onion">
+                        <div class="caption">
+                            <h3>Onion</h3>
+                            <p>₹50/g</p>
+                            <button id="item1" onclick = "myfunction('Onion', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/beetroot.jpg" alt="beetroot">
+                        <div class="caption">
+                            <h3>Beetroot</h3>
+                            <p>₹40/g</p>
+                            <button id="item2" onclick = "myfunction('Beetroot', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/bittle-gourd.webp" alt="bittle-gourd">
+                        <div class="caption">
+                            <h3>Bittle gourd</h3>
+                            <p>₹40/g</p>
+                            <button id="item3" onclick = "myfunction('Bittle gourd', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/brinjal.jpg" alt="brinjal">
+                        <div class="caption">
+                            <h3>Brinjal</h3>
+                            <p>₹40/g</p>
+                            <button id="item4" onclick = "myfunction('Brinjal', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="img/potato.jpg" alt="potato">
+                        <div class="caption">
+                            <h3>Potato</h3>
+                            <p>₹40/g</p>
+                            <button id="item5" onclick = "myfunction('Potato', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/tomato.jpeg">
+                        <div class="caption">
+                            <h3>Tomato</h3>
+                            <p>₹40/g</p>
+                            <button id="item6" onclick = "myfunction('Tomato', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/cabbage.jpg" alt="cabbage">
+                        <div class="caption">
+                            <h3>Cabbage</h3>
+                            <p>₹40/g</p>
+                            <button id="item7" onclick = "myfunction('Cabbage', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/capsicum.webp " alt="capsicum">
+                        <div class="caption">
+                            <h3>Capsicum</h3>
+                            <p>₹40/g</p>
+                            <button id="item8" onclick = "myfunction('Capsicum', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="img/carrots.webp" alt="carrots">
+                        <div class="caption">
+                            <h3>Carrots</h3>
+                            <p>₹40/g</p>
+                            <button id="item9" onclick = "myfunction('Carrot', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/cucumber.jpg" alt="cucumber">
+                        <div class="caption">
+                            <h3>Cucumber</h3>
+                            <p>₹40/g</p>
+                            <button id="item10" onclick = "myfunction('Cucumber', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/Ladyfinger.png" alt="Ladyfinger">
+                        <div class="caption">
+                            <h3>Lady finger</h3>
+                            <p>₹40/g</p>
+                            <button id="item11" onclick = "myfunction('Lady Finger', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="img/mushroom.jpg">
+                        <div class="mushroom">
+                            <h3>Mushroom</h3>
+                            <p>₹40/g</p>
+                            <button id="item12" onclick = "myfunction('Mushroom', '40')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="padding-20"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <center>
+                Copyright © Lifestyle Store. All Rights Reserved and Contact Us: +91 90000 00000
+            </center>
+        </div>
+    </footer>
+    <script>
+        function myfunction(name, prc){
+            var a = name;
+            var b = prc;
+            url = 'cart.html?name=' + encodeURIComponent(a) + '&price=' + encodeURIComponent(b);
+            document.location.href = url;
+        }
+    </script>
+    <!-- <script src = "cart.js"></script> -->
+</body>
+</html>

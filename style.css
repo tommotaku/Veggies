@@ -1,0 +1,68 @@
+
+ .banner-image{ padding-top: 75px;    
+              padding-bottom: 100px; 
+              text-align: center;     
+              color: #f8f8f8; 
+              background-color: #101010;
+              background: url(veg.webp) no-repeat center ; 
+              background-size: cover;
+}
+
+.banner-content{
+    position: relative; 
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    margin: 12%; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    max-width: 1000px;
+    overflow: hidden; 
+}
+
+.thumbnail img{
+    max-height: 150px; 
+}
+main {
+    min-height: 100vh;
+}
+
+footer{
+    padding: 10px 0; 
+    background-color: #101010; 
+    color:#9d9d9d; 
+    bottom: 0; 
+    width: 100%; 
+}
+.row_style{
+    margin-top: 70px;
+}
+ h2{font-weight: bolder; 
+ }
+ .jumbotron_style{
+     margin-top: 70px;
+ }
+ .table_style{
+     margin-top: 70px;
+ }
+  h4{
+      font-weight: bolder;
+  }
+ .container_style{
+     margin-top: 80px;
+ }
+
+ #item1, #item2,#item3,#item4,#item5,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12 {
+    margin: 0;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+ }
+ .padding-20 {
+     padding: 20px;
+ }
+         
